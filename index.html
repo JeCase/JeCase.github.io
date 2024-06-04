@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==========================================
+                  Box Icons
+    =========================================== -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/image/icon.png" />
+    <!-- ==========================================
+                  Custom CSS
+    =========================================== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ==========================================
+                  Breakpoint
+    =========================================== -->
+    <link rel="stylesheet" href="breakpoint.css" />
+    <title>Jerry's Website</title>
+  </head>
+  <body>
+    <!-- ==========================================
+                      Header
+      =========================================== -->
+    <header class="header">
+      <a href="#" class="logo">Je<span>Case.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <!-- <a href="#services">Services</a> -->
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ==========================================
+                    Home Section
+      =========================================== -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Jerry</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/jerrycs/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/JeCase" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/jerry.cs" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+          <!-- <a href="" target="_blank"><i class="bx bxl-tiktok"></i></a> -->
+        </div>
+        <!-- add link for your CV into `href` -->
+        <a href="https://drive.google.com/drive/folders/1eZ5fGirFfpuMLIlI-c9_AolqxPY_44YW?usp=sharing" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/image/home2.png" alt="home" />
+      </div>
+    </section>
+
+    <!-- ==========================================
+                    About Section
+      =========================================== -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/image/about2.png" alt="about" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          Data Scientist with 1.5+ Years of Experience | Bachelor of Informatics | Proficient in Python, Tableau, Google Cloud Platform, SQL, and Figma | Skilled in Data Management, Data Modeling, Data Visualization, Problem-Solving, and
+          Capable of Collaborating With Cross-Functional Teams | Fluent in English, German, Indonesian, and Javanese | Enthusiastic About Exploring New Cultures and Destinations, With a Passion For Travelling and Experiencing Diverse
+          Landscapes.
+        </p>
+        <p>I'm from Indonesia <span class="fi fi-id"></span> and soon based in Germany <span class="fi fi-de"></span></p>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </section>
+
+    <!-- ==========================================
+                    Services Section
+      =========================================== -->
+    <!-- <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+          <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Front End</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque amet atque voluptate saepe magni aspernatur id nemo quasi quibusdam ratione.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+          <div class="services-box">
+            <i class="bx bxs-paint"></i>
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fugiat quaerat vero magnam? Sunt exercitationem atque distinctio deleniti culpa minus.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+          <div class="services-box">
+            <i class="bx bx-data"></i>
+            <h3>Back End</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque amet atque voluptate saepe magni aspernatur id nemo quasi quibusdam ratione.</p>
+
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </section> -->
+
+    <!-- ==========================================
+                    Portfolio Section
+      =========================================== -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/image/img2.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Data Science</h4>
+            <p>I assisted in research on: Load Electricity Prediction Using CNN-BiLSTM with Attention Mechanism.</p>
+            <a href="https://github.com/JeCase/LoadElectricity_Forecasting_CNN-BiLSTM-Attention" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img3.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Data Science</h4>
+            <p>This research discusses two deep learning methods for performing sentiment analysis on Indonesian TikTok reviews.</p>
+            <a href="https://github.com/JeCase/Thesis_SentimentAnalysis_IndoBERTweet_LSTM" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img4.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Artificial Intelligence</h4>
+            <p>This is a computer vision project through the use of AI techniques for object recognition using face masks.</p>
+            <a href="https://github.com/JeCase/FacemaskDetection-YOLOv5.git" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img5.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Data Analyst</h4>
+            <p>This is an operational dashboard built with Tableau for the display of analytical information from a product.</p>
+            <a href="https://youtu.be/dMg7Ba25jbk" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img6.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>This is a simple web design of Tourism Object</p>
+            <a href="https://jecase.github.io/inBanyuwangi/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img8.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>UI Design</h4>
+            <p>This design is an assignment for the UI/UX design class. Have a look at the prototype!</p>
+            <a href="https://www.figma.com/proto/jBwiZiKtNX5qucokq4SeRn/TentorPedia-Prototype?node-id=0-2&t=VRHw1vZEJoKFxYKw-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A2" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                    Contact Section
+      =========================================== -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="27be20f4-22f2-470d-8791-9114d3638203" />
+
+        <div class="input-box">
+          <input type="text" name="full_name" placeholder="Full Name" />
+          <input type="email" name="email_address" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" name="mobile_number" placeholder="Mobile Number" />
+          <input type="text" name="email_subject" placeholder="Email Subject" />
+        </div>
+
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- ==========================================
+                      Footer
+      =========================================== -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by JeCase. | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+                    Scroll Reveal
+      =========================================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ==========================================
+                    Typed Js
+      =========================================== -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ==========================================
+                    Custom Js
+      =========================================== -->
+    <script src="main.js"></script>
+  </body>
+</html>
